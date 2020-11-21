@@ -1,0 +1,85 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.ReactModal__Content{
+  top:0px !important;
+  bottom:0px !important;
+  left:0px !important;
+  right:0px !important;
+  width:100%;
+  height:100%;
+  padding:0 !important;
+}
+
+.ReactModal__Content{
+    background: rgba(255,255,255,0.5) !important;
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 500ms ease-in-out;
+    z-index: 2;
+}
+  
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+    transform: translateX(0px);
+}
+  
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+    transform: translateX(100px);
+}
+
+.gm-style-iw-t{
+    bottom:50px !important;
+}
+
+.rw-widget-container{
+    border: #E676BD 1px solid !important;
+    border-radius: 9px !important;
+}
+
+.rw-multiselect-tag{
+    color:#fff !important;
+    background-color: #EA8CC7 !important;
+    margin-bottom: 10px;
+    border:none !important;
+}
+
+.rw-list-option{
+    color:  #EA8CC7 !important;
+    padding:8px !important;
+    border: none !important;
+}
+
+.rw-widget-input input::placeholder{
+    color:  #EA8CC7 !important;
+}
+
+.rw-widget-container{
+    box-shadow: none !important;
+}
+
+.rtf.open .rtf--mb > * {
+  transform: rotate(0deg) !important; 
+}
+
+.rtf--mb__c > span.right{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.rtf--mb__c *:last-child {
+    width: 30px;
+}
+
+@media(max-width:667px){
+    .rtf{
+        right: -25px !important;
+    }
+}
+
+

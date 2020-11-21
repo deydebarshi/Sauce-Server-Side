@@ -1,0 +1,109 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 999;
+    background-color: #ffffff;
+}
+
+.modal_header{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding:20px;
+    text-align:center;
+    background-color: #FFB6E4;
+    color:#000;
+}
+
+.subscribe_header_text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subscribe_header_below{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.subscribe_policy{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.subscribe_container{
+    padding:20px;
+}
+
+.input_container{
+    padding:8px;
+}
+
+.input{
+    width: 98%;
+    border: none;
+    border-bottom: 1px solid #FFB6E4;
+    padding-bottom: .8em;
+    margin-top: 1em;
+    background: #fff !important;
+}
+
+.modal_close{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    cursor: pointer;
+    color:#000;
+}
+
+.button_container{
+    padding:8px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.offer_btn{
+    background-color: #E676BD;
+    color: #ffffff;
+    padding:15px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.errorMSG{
+    font-size: 13px;
+    margin-top: 10px;
+    display: block;
+    color: red;
+}
+
+.successMSG{
+    background: #FFB6E4;
+    width: 90%;
+    display: block;
+    text-align: center;
+    padding: 5%;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 1em;
+    font-size: 14px;
+}
+
+@media(min-width:767px){
+
+.modal_header{
+    margin-top:0px;
+}
+
+.container{
+    width: 25%;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+    box-shadow: 0px 5px 5px 3px #ccc;
+}
+
+}

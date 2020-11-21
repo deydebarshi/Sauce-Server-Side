@@ -1,0 +1,43 @@
+{
+  "name": "create-next-app-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.2",
+    "google-maps-react": "^2.0.6",
+    "isomorphic-unfetch": "^3.0.0",
+    "multiselect-dropdown-react": "^1.0.5",
+    "multiselect-react-dropdown": "^1.4.8",
+    "next": "9.3.5",
+    "next-images": "^1.4.0",
+    "react": "16.13.1",
+    "react-activity": "^1.2.2",
+    "react-beforeunload": "^2.2.0",
+    "react-dom": "16.13.1",
+    "react-floating-action-button": "^1.0.5",
+    "react-google-maps": "^9.4.5",
+    "react-modal": "^3.11.2",
+    "react-no-ssr": "^1.1.0",
+    "react-star-ratings": "^2.3.0",
+    "react-tiny-fab": "^3.5.0",
+    "react-widgets": "^4.5.0",
+    "styled-components": "^5.1.0",
+    "styled-icons": "^10.2.1"
+  },
+  "devDependencies": {
+    "file-loader": "^6.0.0"
+  }
+}

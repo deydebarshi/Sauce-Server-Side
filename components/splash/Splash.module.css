@@ -1,0 +1,26 @@
+.splash_container{
+   display: flex;
+   background-color: #FEB7E3;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.splashLogo{
+    height: 25%;
+    width: 50%;
+}
+
+@media(min-width:768px){
+    .splashLogo{
+        height: 25%;
+        width: 35%;
+    } 
+}
+
+@media(min-width:980px){
+    .splashLogo{
+        height: auto;
+        width: 20%;
+    } 
+}

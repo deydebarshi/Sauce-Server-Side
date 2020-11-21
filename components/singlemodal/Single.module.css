@@ -1,0 +1,29 @@
+.single_modal_container{
+    background-color: #FFB6E4;
+    padding-top: 10%;
+}
+
+.modal_close{
+    position: absolute;
+    right: 3%;
+    top: 1%;
+    cursor: pointer;
+}
+
+
+@media(min-width:767px){
+    .single_modal_container{
+        width: 35%;
+        position: absolute;
+        left: 33%;
+        top: 5%;
+        padding-top: 30px;
+        background-color: #FFB6E4;
+        box-shadow: 0px 5px 5px 4px #ccc;
+    }
+
+    .modal_close{
+        right: 0%;
+        top: 0%;
+    }
+}

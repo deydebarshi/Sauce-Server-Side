@@ -1,0 +1,164 @@
+.main_container{
+    width:100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.single_container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.establishment_image{
+    width:100%;
+    height:170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.back{
+    color:#fff;
+    position: absolute;
+    top:30px;
+    left:15px;
+    cursor: pointer;
+}
+
+.establishment_cuisin{
+    position: absolute;
+    bottom: 7px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.5);;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 13px;
+    font-size: 14px;
+}
+
+.establishment_offers{
+    background-color: #fff;
+    width: 40%;
+    padding: 7px;
+    border-radius: 5px;
+    color: #333;
+    position: absolute;
+    bottom: -13px;
+    right: 13px;
+    font-size: 13px;
+    text-align: center;
+    box-shadow: 0px 5px 0px #eee;
+}
+
+
+.establishment_details{
+    padding:10px;
+}
+
+.establishment_title{
+    font-size: 21px;
+    margin: 15px 0 7px;
+}
+
+.distance{
+    display: block;
+    margin-top: 5px;
+}
+
+
+.establishment_desc{
+    margin: 50px 0 40px;
+    line-height: 1.5em;
+    word-spacing: 3px;
+}
+
+.establishment_deals{
+    margin-bottom:65px;
+}
+
+.deals_head{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.establishment_deals_title{
+    line-height: 1.5em;
+    word-spacing: 3px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.establishment_deals_text{
+    line-height: 1.5em;
+    word-spacing: 3px;
+}
+
+.more_info{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.more_info_head{
+    margin-bottom: 15px;
+}
+
+.more_info_site{
+    display: block;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.more_info_phone{
+    color: #000;
+    text-decoration: none;
+}
+
+.establishment_map{
+    height: 250px;
+    position: relative;
+}
+
+.custom_loader{
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(min-width:767px){
+    .main_container{
+        background: #FFB6E4;
+    }
+
+    .establishment_image{
+        height:300px;
+    }
+
+    .single_container{
+        margin:0 auto;
+        background-color: #fff;
+        font-size: 14px !important;
+    }
+
+    .establishment_title, .deals_head, .more_info{
+        font-size: 16px;
+    }
+
+    .custom_loader{
+        padding: 38px 0%;
+    }
+}
+
+@media(min-width:812px){
+    .establishment_image{
+        height:210px;
+    }
+}
